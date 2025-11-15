@@ -1,4 +1,4 @@
-# Projeto: Predição de Sinistros de Seguro Automotivo (Car Insurance Claim)
+# Projeto 3: Predição de Sinistros de Seguro Automotivo (Car Insurance Claim)
 
 Este projeto detalha a construção de um pipeline completo de Machine Learning para prever a probabilidade de sinistro (`outcome`) em apólices de seguro automotivo. O processo abrange desde a limpeza de dados brutos (ETL), seguindo a arquitetura Medallion, até a seleção e avaliação de múltiplos modelos preditivos para identificar o de melhor performance.
 
