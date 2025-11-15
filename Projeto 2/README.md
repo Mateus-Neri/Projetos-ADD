@@ -4,12 +4,14 @@ Este projeto foca no pré-processamento, limpeza e análise exploratória de um 
 
 O pipeline de dados segue a **Arquitetura Medallion** (Bronze, Silver, Gold) para organizar o fluxo de processamento e refinar os dados em etapas.
 
-* **Ações de Limpeza:**
-    1.  **Padronização de Colunas:** Nomes de colunas convertidos para `lowercase` e remoção de caracteres especiais (ex: `insurance_premium_` ).
-    2.  **Tratamento de Outliers:** Verificação (via IQR e Z-Score) que concluiu a **ausência** de outliers.
-    3.  **Tratamento de Missing Values:** Verificação que concluiu a **ausência** de valores nulos.
-    4.  **Tratamento de Categóricos:** Verificação que concluiu que o dataset **não possui** dados categóricos.
-* **Resultado:** Os dados limpos e validados são salvos como uma tabela Delta (`workspace.silver.t_car_insurance_tr`).
+- **Ações de Limpeza:**
+
+    1.   Padronização de Colunas
+    2.  Tratamento de Outliers
+    3.  Tratamento de Missing Values
+    4.  Tratamento de Categóricos
+    
+- **Resultado:** Os dados limpos e validados são salvos como uma tabela Delta (`workspace.silver.t_car_insurance_tr`).
 
 ## ⚙️ Pipeline de Processamento e Limpeza
 
